@@ -41,7 +41,8 @@ const times = [
 
   const [colaboradores, setColaboradores] = useState([])
 
-  const aoNovoColaboradorAdicionado = (colaborador) => {   
+  const aoNovoColaboradorAdicionado = (colaborador) => {  
+    
     setColaboradores([...colaboradores, colaborador])
   }
 
